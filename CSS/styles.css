@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  color: #283149;
+}
+
+h1 {
+  color: #239f95;
+  margin: 80px auto 0 auto;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #239f95;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #00818a;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: #216583;
+}
+
+a:hover {
+  color: #142d4c;
+}
+
+hr {
+  border-width: 8px 0 0 0;
+  border-style: dotted;
+  color: #ffee82;
+  width: 6%;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #fdda16;
+}
+
+.middle-container {
+  background-color: #ffffff;
+}
+
+.bottom-container {
+  background-color: #ff9000;
+  padding: 50px 0 35px;
+}
+
+.profile {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.intro {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 80px;
+  right: 450px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+}
+
+.mountain {
+  margin-top: -15px;
+  margin-bottom: -5px;
+}
+
+.skills {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+.skill-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill2-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  margin-bottom: 40px;
+}
+
+.footer-link {
+  color: #ffee82;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  padding: 0 30px 0 30px;
+}
+
+.footer-link:hover {
+  color: #b31313;
+}
+
+.butn {
+  background: #50b6bb;
+  background-image: -webkit-linear-gradient(top, #50b6bb, #45969b);
+  background-image: -moz-linear-gradient(top, #50b6bb, #45969b);
+  background-image: -ms-linear-gradient(top, #50b6bb, #45969b);
+  background-image: -o-linear-gradient(top, #50b6bb, #45969b);
+  background-image: linear-gradient(to bottom, #50b6bb, #45969b);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  color: #fff;
+  background: #45969b;
+  background-image: -webkit-linear-gradient(top, #45969b, #216583);
+  background-image: -moz-linear-gradient(top, #45969b, #216583);
+  background-image: -ms-linear-gradient(top, #45969b, #216583);
+  background-image: -o-linear-gradient(top, #45969b, #216583);
+  background-image: linear-gradient(to bottom, #45969b, #216583);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 0.75rem;
+}
